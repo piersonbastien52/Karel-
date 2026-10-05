@@ -1,0 +1,27 @@
+# Exercice 2 bonus : Un S en balises
+definir avancer_deposer: 
+    poser_balise
+    avancer 
+
+definir tourner_droite:
+    tourner_gauche
+    tourner_gauche
+    tourner_gauche 
+
+
+repeter 4 fois:
+    avancer_deposer
+tourner_gauche
+repeter 2 fois:
+    avancer_deposer
+tourner_gauche
+
+repeter 4 fois:
+    avancer_deposer
+tourner_droite
+repeter 2 fois:
+    avancer_deposer
+tourner_droite
+repeter 4 fois:
+    avancer_deposer
+poser_balise

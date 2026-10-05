@@ -1,0 +1,9 @@
+# Exercice 1 bonus : Le tour du lac
+repeter 18 fois: 
+    si devant_bloque: 
+       tourner_gauche 
+    avancer 
+    si balise_ici:
+        ramasser_balise 
+        
+tourner_gauche 
