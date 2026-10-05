@@ -1,0 +1,19 @@
+definir tourner_droite:
+    tourner_gauche 
+    tourner_gauche
+    tourner_gauche
+
+definir planter: 
+    poser_balise 
+    avancer
+    avancer 
+    poser_balise
+
+repeter 3 fois:
+    tant que devant_libre:
+         planter 
+    tourner_droite
+planter 
+tourner_droite
+tant que devant_libre:
+        planter 

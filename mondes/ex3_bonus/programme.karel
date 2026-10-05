@@ -1,0 +1,36 @@
+definir tourner_droite:
+    tourner_gauche 
+    tourner_gauche
+    tourner_gauche
+
+definir esquive_gauche:
+    tourner_gauche 
+    avancer 
+    tourner_droite 
+    avancer
+    avancer
+    tourner_droite 
+    avancer 
+    tourner_gauche
+
+definir esquive_droite:
+    tourner_droite  
+    avancer 
+    tourner_gauche  
+    avancer
+    avancer
+    tourner_gauche 
+    avancer 
+    tourner_droite 
+repeter 2 fois:
+
+    tant que devant_libre:
+        avancer 
+    esquive_gauche
+    tant que devant_libre:
+        avancer
+    esquive_droite 
+    tant que devant_libre:
+        avancer
+    si balise_ici:
+        ramasser_balise
