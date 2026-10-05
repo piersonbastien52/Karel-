@@ -1,1 +1,26 @@
 # Exercice 3 : ce fichier sera rempli par le script historique.sh
+definir tourner_droite:
+    tourner_gauche 
+    tourner_gauche
+    tourner_gauche
+
+definir esquive:
+    tourner_gauche 
+    avancer 
+    tourner_droite 
+    avancer
+    avancer
+    tourner_droite 
+    avancer 
+    tourner_gauche
+repeter 1 fois:
+    tant que pas sac_non_vide:
+        si balise_ici:
+            ramasser_balise
+        si devant_bloque: 
+            esquive
+        si devant_libre:
+            avancer
+       
+        
+    
