@@ -1,1 +1,11 @@
-# Projet : Karel le jardinier
+repeter 100 fois:
+    si balise_ici:
+        ramasser_balise
+    si gauche_libre:
+        tourner_gauche
+    si droite_libre:
+        tourner_gauche 
+        tourner_gauche
+        tourner_gauche
+    si devant_libre:
+        avancer 

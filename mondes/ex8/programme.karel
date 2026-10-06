@@ -1,5 +1,0 @@
-# Projet : Karel dans le labyrinthe
-tant que devant_libre:
-    avancer
-si balise_ici:
-    ramasser_balise

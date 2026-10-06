@@ -1,0 +1,14 @@
+
+
+tant que devant_libre:
+    si balise_ici:
+        ramasser_balise
+    sinon:
+        avancer 
+    si pas devant_libre:
+        tourner_gauche
+        si pas devant_libre:
+            tourner_gauche
+            tourner_gauche
+    si balise_ici:
+        ramasser_balise
