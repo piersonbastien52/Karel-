@@ -1,4 +1,3 @@
-
 tant que devant_libre:
     si balise_ici:
         ramasser_balise
@@ -11,6 +10,7 @@ tant que devant_libre:
             tourner_gauche
     si balise_ici:
         ramasser_balise
+tourner_gauche
 
 repeter 100 fois:
     si balise_ici:
